@@ -35,7 +35,7 @@ Note:
     sys.dm_db_missing_index_* are reset whenever an index is created on the table. 
 
     The index name provided in the name column for indexes that do not exist is not a 
-    recommended name for the index.  It’s just an informative placeholder. 
+    recommended name for the index.  Itâ€™s just an informative placeholder. 
    
 Parameters
     @TableName(NVARCHAR(256)): Optional parameter to add
