@@ -1,6 +1,3 @@
-USE [master];
-GO
-
 IF OBJECT_ID('dbo.sp_IndexAnalysis') IS NOT NULL
     DROP PROCEDURE [dbo].[sp_IndexAnalysis];
 GO
@@ -1247,5 +1244,4 @@ BEGIN
         RAISERROR(@ERROR_MESSAGE, @ERROR_SEVERITY, @ERROR_STATE);
     END CATCH;
 END;
-
 
