@@ -19,6 +19,7 @@ Note:
     recommended name for the index.  It’s just an informative placeholder. 
    
 Parameters
+
     @TableName(NVARCHAR(256)): Optional parameter to add
     @IncludeMissingIndexes(BIT): Identifies whether to include missing indexes in the output
     @IncludeMissingFKIndexes(BIT): Identifies whether to include missing foreign key indexes 
@@ -30,6 +31,7 @@ Parameters
            * OVERLAPPING: Index results for overlapping indexes
 
 Columns:
+
     index_action: Analysis recommendation on action to take on the index 
         CREATE: Recommend adding the index to the table. 
         DROP-DUP: Recommend dropping the index since it is a duplicate 
